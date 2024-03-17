@@ -6,29 +6,20 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team build an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'Newsletter Automation',
+        description: "In this project, we undertook the task of transforming an existing WordPress application into a more robust solution using PHP Laravel and Vue.js technologies. Our primary goal was to automate the newsletter process for multiple websites, ensuring that clients receive curated content every weekend. We achieved this by building a system that automatically fetches the latest articles from each website and compiles them into newsletters, removing the need for manual intervention. This transition not only increased scalability but also significantly improved user satisfaction by streamlining the entire process ",
+        tools: ['PHP', 'Laravel', 'JavaScript', 'TypeScript', 'Vue.js', 'Docker', 'Gitlab'],
+        role: 'Full stack Developer',
         code: '',
         demo: '',
         image: crefin,
     },
-    {
-        id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
-        code: '',
-        demo: '',
-        image: travel,
-    },
+    
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. To develop the API, we used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose. For the UI, we utilized NextJS, Formik, TailwindCSS, and other npm libraries. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'Exam Schedule Generator',
+        description: 'We made a platform that simplifies the daunting task of exam scheduling. Using Python genetic algorithms, backed by PHP Laravel and fronted with React.js, we have created a seamless solution. Our system considers class availability, seat capacity, professor schedules, and all necessary constraints. ',
+        tools: ['React', 'PHP', 'Laravel', 'Python', 'MySQL','Genetic Algorithm'],
         code: '',
         role: 'Full Stack Developer',
         demo: '',
@@ -36,14 +27,35 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'Video Analysis with Facial Recognition',
+        description: "I made a program that analysis video through facial recognition. Built using Python and dlib library, it automatically organizes videos by creating folders for recognized faces. Using existing models, it ensures precise detection, saving only videos with straight-facing subjects.",
+        tools: ['Python', 'dlib library', 'Git'],
         code: '',
         demo: '',
         image: ayla,
+        role: 'Python Script Developer',
+    },
+    {
+        id: 5,
+        name: 'Automated Game Actions using Image Recognition',
+        description: "I made this project and aimed at simplifying repetitive actions in gaming while keeping an eye out for unexpected changes. Using image recognition technology, this system I built in Python detects and responds to various scenarios in real-time. Whether it's automating tasks or reacting to anomalies.",
+        tools: ['Python', 'Pyautogui', 'adb', 'Git'],
+        code: '',
+        demo: '',
+        image: ayla,
+        role: 'Python Script Developer',
+    },
+    {
+        id: 2,
+        name: 'E-learning platforme',
+        description: 'We developed an e-learning platform for a private school. Within this platform, professors have the capability to upload and share their courses, which are then accessible to their students. This solution enhances the educational experience within the school environment.',
+        tools: ['PHP', 'Laravel', 'JavaScript', 'Git'],
         role: 'Full Stack Developer',
+        code: '',
+        demo: '',   
+        image: travel,
     }
+    
 ];
 
 

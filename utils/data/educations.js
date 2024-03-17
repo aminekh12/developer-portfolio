@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Engineering Degree in Web and Mobile Development",
+    duration: "2021 - 2023",
+    institution: "ISGA",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Bachelor's Degree in Computer Science",
+    duration: "2020 - 2021",
+    institution: "UPM",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
+    title: "Specialized Computer Development Degree",
     duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    institution: "ISTA OFPPT",
   }
 ]
