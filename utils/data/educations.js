@@ -14,7 +14,7 @@ export const educations = [
   {
     id: 3,
     title: "Specialized Computer Development Degree",
-    duration: "2008 - 2018",
+    duration: "2018 - 2020",
     institution: "ISTA OFPPT",
   }
 ]
