@@ -66,7 +66,7 @@ function HeroSection() {
           </div>
 
         </div>
-        <div className="order-1 lg:order-2 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
+        <div className="order-1 lg:order-2 flex flex-col items-center justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <Image
             src={personalData.profile}
             width={400}
